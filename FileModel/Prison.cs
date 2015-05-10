@@ -47,7 +47,7 @@ namespace PASaveEditor.FileModel {
                     Version = value;
                     break;
                 case "TimeIndex":
-                    TimeIndex = Double.Parse(value);
+                    TimeIndex = Double.Parse(value, System.Globalization.NumberStyles.AllowDecimalPoint, System.Globalization.NumberFormatInfo.InvariantInfo);
                     break;
                 case "EnabledMisconduct":
                     EnabledMisconduct = Boolean.Parse(value);
