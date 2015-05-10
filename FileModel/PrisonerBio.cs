@@ -27,7 +27,7 @@ namespace PASaveEditor.FileModel {
                     Sentence = Int32.Parse(value);
                     break;
                 case "Served":
-                    Served = Double.Parse(value);
+                    Served = Double.Parse(value, System.Globalization.NumberStyles.AllowDecimalPoint, System.Globalization.NumberFormatInfo.InvariantInfo);
                     break;
                 case "Nitg":
                     Nitg = Int32.Parse(value);
