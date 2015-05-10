@@ -29,7 +29,7 @@ namespace PASaveEditor.FileModel {
                     BankLoan = (int)Math.Round(Double.Parse(value));
                     break;
                 case "BankCreditRating":
-                    BankCreditRating = Double.Parse(value);
+                    BankCreditRating = Double.Parse(value, System.Globalization.NumberStyles.AllowDecimalPoint, System.Globalization.NumberFormatInfo.InvariantInfo);
                     break;
                 case "Ownership":
                     Ownership = Int32.Parse(value);
