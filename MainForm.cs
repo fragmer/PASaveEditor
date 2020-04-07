@@ -103,6 +103,9 @@ namespace PASaveEditor {
                     pbServed.Value = (int)Math.Min(Math.Round(bio.Served * 100d / bio.Sentence), 100);
                     lServedStats.Text = String.Format("{0:0.#} of {1} years", bio.Served, bio.Sentence);
                     bRelease.Enabled = (bio.Served < bio.Sentence);
+                    m_Age.Text = bio.Age.ToString();
+                    m_BodyType.Text = bio.BodyType.ToString();
+                    // adding gang
                 }
             }
         }
@@ -118,6 +121,7 @@ namespace PASaveEditor {
             UpdatePrisonerCategoryItem(miEliminateMaxSec, miReleaseMaxSec, "MaxSec", "Maximum Security");
             UpdatePrisonerCategoryItem(miEliminateSuperMax, miReleaseSuperMax, "SuperMax", "SuperMax");
             UpdatePrisonerCategoryItem(miEliminateDeathRow, miReleaseDeathRow, "DeathRow", "Death Row");
+            UpdatePrisonerCategoryItem(miEliminateInsane, miReleaseInsane, "Insane", "Insane");
             UpdatePrisonerCategoryItem(miEliminateAll, miReleaseAll, null, "All");
 
             int hiddenReputations =
@@ -491,5 +495,34 @@ namespace PASaveEditor {
         }
 
         #endregion
+
+        private void moveToPercentage_Click(object sender, EventArgs e) // added by caleb
+        {
+            if(SelectedPrisoner != null) // not possible but good to check
+            {
+                selectedPrisoner.Bio.Served = selectedPrisoner.Bio.Sentence * (.95);
+                SelectedPrisoner = null;
+                UpdatePrisoners();
+            }
+        }
+
+        private void nBankLoanAmount_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tpPrisoners_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            prison x;
+            foreach(string tPrisoner in prisonerNames)
+            {
+                
+            }
+        }
     }
 }

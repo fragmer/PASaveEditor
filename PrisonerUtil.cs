@@ -12,7 +12,8 @@ namespace PASaveEditor {
             { "Normal", "Normal Security" },
             { "MaxSec", "Maximum Security" },
             { "SuperMax", "SuperMax" },
-            { "DeathRow", "Death Row" }
+            { "DeathRow", "Death Row" },
+            {"Insane", "Insane" }
         };
 
         // Converts short in-savegame name to index (0-5)

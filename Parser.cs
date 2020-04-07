@@ -8,7 +8,7 @@ using PASaveEditor.FileModel;
 namespace PASaveEditor {
     // Parser for .prison file format, used by PrisonArchitect
     internal class Parser {
-        public const string SupportedVersion = "alpha-25b";
+        public const string SupportedVersion = "the_sneezer_1.02";
 
         static readonly Regex IdRegex = new Regex("^\\[i \\d+\\]$", RegexOptions.Compiled);
 

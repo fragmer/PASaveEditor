@@ -12,6 +12,6 @@ namespace PASaveEditor {
         }
 
 
-        public const string Version = "r32 [9 October 2014]";
+        public const string Version = "revision 1, 4/6/2020";
     }
 }

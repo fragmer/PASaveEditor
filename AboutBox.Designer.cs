@@ -36,8 +36,7 @@
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(258, 104);
             this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "PASaveEditor {0}\nby Matvei Stefarov\nfor Prison Architect {1}\n\nhttps://github.com/" +
-    "fragmer/PASaveEditor";
+            this.richTextBox1.Text = "PSAE DEVELOPMENT V1.0 by Crypto.";
             this.richTextBox1.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.richTextBox1_LinkClicked);
             // 
             // bClose
