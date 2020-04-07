@@ -9,6 +9,9 @@ namespace PASaveEditor.FileModel {
         public int Nitg;
         public List<string> Reputations;
         public bool ReputationRevealed;
+        public double Age;
+        public int BodyType;
+        public List<string> Traits; // might use this later TODO
 
 
         public PrisonerBio(string label)
@@ -41,6 +44,12 @@ namespace PASaveEditor.FileModel {
                 case "ReputationRevealed":
                     ReputationRevealed = Boolean.Parse(value);
                     break;
+                case "Age":
+                    Age = Double.Parse(value);
+                    break;
+                case "BodyType":
+                    BodyType = Int32.Parse(value);
+                    break;
                 default:
                     base.ReadKey(key, value);
                     break;
@@ -60,6 +69,8 @@ namespace PASaveEditor.FileModel {
                 }
                 writer.WriteProperty("ReputationRevealed", ReputationRevealed);
             }
+            writer.WriteProperty("Age", Age);
+            writer.WriteProperty("BodyType", BodyType);
         }
     }
 }

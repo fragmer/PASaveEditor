@@ -8,7 +8,8 @@ namespace PASaveEditor.FileModel {
         public int BankLoan;
         public double BankCreditRating;
         public int Ownership;
-
+        public double WardensCut;
+        public double DailyShopRevenue;
 
         public Finance()
             : base("Finance") {}
@@ -34,6 +35,12 @@ namespace PASaveEditor.FileModel {
                 case "Ownership":
                     Ownership = Int32.Parse(value);
                     break;
+                case "WardensCut":
+                    WardensCut = double.Parse(value);
+                    break;
+                case "DailyShopRevenue":
+                    DailyShopRevenue = double.Parse(value);
+                    break;
                 default:
                     base.ReadKey(key, value);
                     break;
@@ -48,6 +55,8 @@ namespace PASaveEditor.FileModel {
             writer.WriteProperty("BankLoan", BankLoan);
             writer.WriteProperty("BankCreditRating", BankCreditRating);
             writer.WriteProperty("Ownership", Ownership);
+            writer.WriteProperty("WardensCut", WardensCut);
+            writer.WriteProperty("DailyShopRevenue", DailyShopRevenue);
         }
     }
 }

@@ -55,6 +55,7 @@
     <Compile Include="FileModel\ContrabandPrisoners.cs" />
     <Compile Include="FileModel\Digger.cs" />
     <Compile Include="FileModel\Diggers.cs" />
+    <Compile Include="FileModel\Gangs.cs" />
     <Compile Include="FileModel\Informants.cs" />
     <Compile Include="FileModel\MisconductReports.cs" />
     <Compile Include="FileModel\Penalties.cs" />
