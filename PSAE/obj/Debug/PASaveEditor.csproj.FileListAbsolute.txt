@@ -1,0 +1,11 @@
+C:\Users\Caleb\Source\Repos\PSAE\bin\Debug\PASaveEditor.exe.config
+C:\Users\Caleb\Source\Repos\PSAE\bin\Debug\PASaveEditor.exe
+C:\Users\Caleb\Source\Repos\PSAE\bin\Debug\PASaveEditor.pdb
+C:\Users\Caleb\Source\Repos\PSAE\obj\Debug\PASaveEditor.csprojAssemblyReference.cache
+C:\Users\Caleb\Source\Repos\PSAE\obj\Debug\PASaveEditor.AboutBox.resources
+C:\Users\Caleb\Source\Repos\PSAE\obj\Debug\PASaveEditor.MainForm.resources
+C:\Users\Caleb\Source\Repos\PSAE\obj\Debug\PASaveEditor.Properties.Resources.resources
+C:\Users\Caleb\Source\Repos\PSAE\obj\Debug\PASaveEditor.csproj.GenerateResource.cache
+C:\Users\Caleb\Source\Repos\PSAE\obj\Debug\PASaveEditor.csproj.CoreCompileInputs.cache
+C:\Users\Caleb\Source\Repos\PSAE\obj\Debug\PASaveEditor.exe
+C:\Users\Caleb\Source\Repos\PSAE\obj\Debug\PASaveEditor.pdb
